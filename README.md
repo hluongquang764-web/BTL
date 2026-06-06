@@ -217,11 +217,8 @@ File cấu hình trung tâm của mọi ứng dụng Android. Nó khai báo mọ
 </manifest>
 ```
 
-<!--
-  CHÈN ẢNH: Chụp file AndroidManifest.xml đang mở trong Android Studio
-  Tên file: images/androidmanifest.png
--->
-![AndroidManifest.xml](images/androidmanifest.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75111f6d-0ff9-4a56-8fad-c93878c51103" />
+
 
 ---
 
@@ -282,11 +279,10 @@ Button btnGiai = findViewById(R.id.btnGiai);
 
 **THEME:** App dùng theme mặc định `Theme.Luongquangha` kế thừa `Theme.MaterialComponents` — hỗ trợ Material Design 3, Button và EditText có style hiện đại.
 
-<!--
-  CHÈN ẢNH: Chụp file activity_main.xml đang mở (xem cả XML lẫn Preview bên phải)
-  Tên file: images/layout_main.png
--->
-![Layout activity_main.xml](images/layout_main.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0bef1804-292c-424d-b587-f2b609c51fd1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1373c06c-1e48-4a16-bcbe-6117fcc47ddc" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0431ad52-b3e5-4eb8-b651-74793e96d47f" />
+
 
 ---
 
@@ -361,6 +357,7 @@ app/
       activity_web_view.xml
     AndroidManifest.xml
 ```
+<img width="540" height="899" alt="image" src="https://github.com/user-attachments/assets/061cb839-fdb2-4e90-ad9e-c478c4fb739c" />
 
 ### MainActivity.java (Activity 1 — About)
 
@@ -389,12 +386,9 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac9e587b-3528-4523-b04b-8667aba63978" />
 
-<!--
-  CHÈN ẢNH: Chụp Activity1 đang chạy trên emulator (hiện họ tên, MSSV, 2 nút)
-  Tên file: images/app_activity1.png
--->
-![Activity 1 — About](images/app_activity1.png)
+<img width="1456" height="819" alt="image" src="https://github.com/user-attachments/assets/bcb1bbfb-3a27-4c04-be76-bd43c12cca39" />
 
 ---
 
@@ -426,11 +420,9 @@ Sau khi tính xong, gửi kết quả lên API: `https://k58kmt.tdh.io.vn/api`
 }
 ```
 
-<!--
-  CHÈN ẢNH: Chụp Activity2 sau khi nhập a=1, b=-5, c=6 và bấm Giải → kết quả x1=3 x2=2
-  Tên file: images/app_activity2_ketqua.png
--->
-![Activity 2 — Kết quả giải toán](images/app_activity2_ketqua.png)
+<img width="1456" height="819" alt="image" src="https://github.com/user-attachments/assets/e75eb06d-ad44-4402-8c52-e219386cb78b" />
+<img width="1456" height="819" alt="image" src="https://github.com/user-attachments/assets/7eb5f28b-ec52-4bf0-a2ce-87999bbc6eeb" />
+
 
 ---
 
@@ -445,11 +437,8 @@ webView.setWebViewClient(new WebViewClient());
 webView.loadUrl("https://k58kmt.tdh.io.vn?masv=K225480106010");
 ```
 
-<!--
-  CHÈN ẢNH: Chụp Activity3 WebView đang hiện trang web (trên điện thoại thật hoặc emulator có mạng)
-  Tên file: images/app_activity3_webview.png
--->
-![Activity 3 — WebView](images/app_activity3_webview.png)
+Lưu ý: Emulator không có kết nối internet thực nên hiển thị lỗi ERR_NAME_NOT_RESOLVED — trên điện thoại thật app sẽ tải đúng trang k58kmt.tdh.io.vn.
+![Uploading image.png…]()
 
 ---
 
@@ -507,11 +496,6 @@ String json = sb.toString();
 | GiaiToanActivity | Giải PT bậc 2, gửi API | ✅ x1=3.0, x2=2.0 (đúng) |
 | WebViewActivity | WebView tải URL | ✅ OK (trên điện thoại thật) |
 
-<!--
-  CHÈN ẢNH: Chụp toàn bộ app chạy trên emulator hoặc điện thoại thật
-  Tên file: images/app_full_demo.png
--->
-![Demo toàn bộ app](images/app_full_demo.png)
 
 ---
 
